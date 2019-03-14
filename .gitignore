@@ -1,2 +1,9 @@
-.idea/
 target/
+bin/
+.idea/
+*.iml
+*.classpath
+*.settings
+*.project
+.DS_Store
+*.zip
