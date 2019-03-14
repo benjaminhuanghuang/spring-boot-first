@@ -16,3 +16,6 @@ application.properties
 
 ## Using static file
 resources/static/index.html
+
+## Data Access
+Spring Data JPA
