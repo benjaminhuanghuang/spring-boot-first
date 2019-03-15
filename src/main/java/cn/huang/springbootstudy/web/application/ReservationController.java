@@ -35,7 +35,7 @@ public class ReservationController {
         } else {
             date = new Date();
         }
-        List<RoomReservation> roomReservationList = this.reservationService.getRoomReservationsForDate(date);
+        List<RoomReservation> roomReservationList = this.reservationService.getRoomReservationsForDate(dateString);
         model.addAttribute("roomReservations", roomReservationList);
         return "reservations";
     }
