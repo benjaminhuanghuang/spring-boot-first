@@ -1,6 +1,6 @@
-package cn.huang.SpringBootStudy;
+package cn.huang.springbootstudy;
 
-import cn.huang.SpringBootStudy.model.Article;
+import cn.huang.springbootstudy.model.Article;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

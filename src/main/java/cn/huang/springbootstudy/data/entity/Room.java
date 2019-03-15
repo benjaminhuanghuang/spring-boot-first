@@ -1,4 +1,4 @@
-package cn.huang.SpringBootStudy.data.entity;
+package cn.huang.springbootstudy.data.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

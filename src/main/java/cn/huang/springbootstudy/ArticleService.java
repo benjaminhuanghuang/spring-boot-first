@@ -1,6 +1,6 @@
-package cn.huang.SpringBootStudy;
+package cn.huang.springbootstudy;
 
-import cn.huang.SpringBootStudy.model.Article;
+import cn.huang.springbootstudy.model.Article;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

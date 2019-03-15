@@ -1,4 +1,4 @@
-package cn.huang.SpringBootStudy;
+package cn.huang.springbootstudy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

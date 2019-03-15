@@ -1,7 +1,7 @@
-package cn.huang.SpringBootStudy.data.repository;
+package cn.huang.springbootstudy.data.repository;
 
 
-import cn.huang.SpringBootStudy.data.entity.Room;
+import cn.huang.springbootstudy.data.entity.Room;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

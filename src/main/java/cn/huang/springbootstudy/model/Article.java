@@ -1,4 +1,4 @@
-package cn.huang.SpringBootStudy.model;
+package cn.huang.springbootstudy.model;
 
 public class Article {
     private String id;
