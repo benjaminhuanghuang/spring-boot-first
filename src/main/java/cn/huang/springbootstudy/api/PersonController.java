@@ -41,7 +41,7 @@ public class PersonController {
     }
 
     @PutMapping(path = "{id}")
-    public void updatePersonById(@PathVariable("id") UUID id, @RequestBody Person personToUpdate) {
+    public void updatePersonById(@PathVariable("id") UUID id, @Valid @RequestBody Person personToUpdate) {
         personService.updatePersonById(id, personToUpdate);
     }
 }
