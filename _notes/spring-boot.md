@@ -1,5 +1,7 @@
+# Spring Boot 
+
 ## Create spring boot project
-    using https://start.spring.io/
+    https://start.spring.io/
     
     
 ## Reference
@@ -34,6 +36,15 @@ This is parent dependency of Spring Boot project. Use it means this project is a
 
 
 ## Controller
+
+@RestController
+
+- @RequestMapping("/api")
+  Map URI to controller class or method  
+
+@RequestParameter
+
+
 ```
     @RestController
 	@RequestMapping("/api")
@@ -45,7 +56,9 @@ This is parent dependency of Spring Boot project. Use it means this project is a
 	}
 ```
 
+
 ## Profile
 ```
     java -jar -Dspring.profiles.active=dev target/...jar
 ```
+

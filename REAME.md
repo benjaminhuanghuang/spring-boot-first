@@ -1,21 +1,10 @@
 ## Spring Boot Study Project
 
 ## Reference
+- [Spring Boot 2 | Crash Course | 2019](https://www.youtube.com/watch?v=r-6BwGW4Sr8)
+
 - Learning spring with spring boot
     - https://www.linkedin.com/learning/learning-spring-with-spring-boot/what-you-need-to-know?u=2099546
       
+
       
-## Create spring boot project
-    
-    https://start.spring.io/
-
-
-
-## Server config
-application.properties
-
-## Using static file
-resources/static/index.html
-
-## Data Access
-Spring Data JPA
