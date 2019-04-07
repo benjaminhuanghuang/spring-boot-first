@@ -31,3 +31,21 @@ This is parent dependency of Spring Boot project. Use it means this project is a
 @Service
 
 @RequestMapping
+
+
+## Controller
+```
+    @RestController
+	@RequestMapping("/api")
+	public class ApiController{
+		@GetMapping("/greeting")
+		public String getGreeting(){
+			return "Hello World from the API";
+		}
+	}
+```
+
+## Profile
+```
+    java -jar -Dspring.profiles.active=dev target/...jar
+```

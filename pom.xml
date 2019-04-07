@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.huang</groupId>
-    <artifactId>springboot-study</artifactId>
+    <artifactId>spring-boot-study</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>springboot-study</name>
+    <name>spring-boot-study</name>
     <description>Spring Boot Study Project</description>
 
     <parent>
