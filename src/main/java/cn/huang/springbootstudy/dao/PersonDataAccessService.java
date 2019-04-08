@@ -4,7 +4,6 @@ import cn.huang.springbootstudy.model.Person;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 @Repository("postgres")
 public class PersonDataAccessService implements  PersonDao{
