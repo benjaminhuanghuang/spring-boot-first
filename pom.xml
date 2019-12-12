@@ -6,7 +6,11 @@
     <groupId>cn.huang</groupId>
     <artifactId>spring-boot-study</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>springboot-skeleton</module>
+        <module>springboot-db</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>spring-boot-study</name>
     <description>Spring Boot Study Project</description>
@@ -42,9 +46,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

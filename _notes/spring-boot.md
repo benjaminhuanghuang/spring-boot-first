@@ -10,24 +10,59 @@
     - How to Create spring boot application in Intellij IDEA
 
 
-## Dependencies
+## Dependencies 
 - spring-boot-starter-parent
 ```
-<parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.4.RELEASE</version>
-</parent>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+    </parent>
 ```
-This is parent dependency of Spring Boot project. Use it means this project is a Spring Boot project After using parent dependency, other dependencies no need to specify version.
-
+This is parent dependency of Spring Boot project. 
+After using parent dependency, other dependencies no need to specify version.
 ```
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+```
+- spring-boot-starter-thymeleaf: template engine
+- spring-boot-starter-web: for web based application
+- spring-boot-starter-test: template engine
+
+## Maven Plug-ins
+Support mvn commands to create the .jar file
+```
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 ```
 
+## Start spring boot app in command line
+```
+    mvn clean package
+    java -jar target/xxxxxx.jar
+```
+## Spring boot project 
+
+- SpringbootApplication.java
+
+- SpringbootApplicationTests.java
+
+- src/main/resources/application.properties
 
 ## Annotation
 @Service
