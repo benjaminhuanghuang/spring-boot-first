@@ -9,6 +9,7 @@
     <modules>
         <module>springboot-skeleton</module>
         <module>springboot-db</module>
+        <module>springboot-service</module>
     </modules>
     <packaging>pom</packaging>
 
